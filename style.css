@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fondoEncabezado{
+    background-color: #353a40;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#353a40;
+    padding: 0 5%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+}
+.iso{
+    width: 25%;
+}
+.confBsAs{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu-blanco{
+    color:white
+}
+.menu-grisado{
+    color:gray
+}
+.menu-destacado{
+    color: green;
+}
+.bannerPpal1{    
+    background-image:url(./imagenes_integrador_front/ba1.jpg);
+    background-size:cover;
+    background-position-x: left;
+    background-position-y: center;
+}
+.bannerPpal2{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 10%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 100vh;
+    align-items: center;
+}
+.contenidoBannerPpal{
+    width: 50%;
+    text-align: right;
+}
+.textoBannerPpal{
+    font-size: 14px;
+}
+.boton1{
+    margin:2% 1%;
+}
+.conoce {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 1%;
+
+}
+.titOradores {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 10px;
+
+}
+.ppal {
+    padding: 0 10%;
+}
+.badges {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+.bsasOctubre {
+    border-radius: 0px;
+}
+.botonVerde{
+    background-color: #96c93e;
+    border-color: #96c93e;
+}
+.menuFooter{
+    background-color: #1d3947;
+    text-align: center;
+}
