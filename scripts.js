@@ -7,6 +7,7 @@ const botonEnviar = document.getElementById("enviar");
 
 
 const valorTicket=200;
+const descSinCategoria=0;
 const descEstudiante=80;
 const descTrainee=50;
 const descJunior=15;
@@ -18,7 +19,9 @@ function calcTotal() {
 
     let total=0
 
-    if (categoria==2) {
+    if (categoria==1) {
+        total=cant*valorTicket 
+    } else if (categoria==2) {
         total=cant*valorTicket*.2 
     } else if (categoria==3) {
         total=cant*valorTicket*.5 
